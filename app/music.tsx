@@ -356,21 +356,21 @@ export default function Music() {
   }
   const featured = [
     {
-      title: 'Pyaar, on repeat.',
+      title: 'Ishq & melodies',
       subtitle: 'THE ROMANCE REEL',
       mood: 'Romantic',
       song: songs[0],
       color: 'rose',
     },
     {
-      title: 'Picture abhi baaki hai.',
+      title: 'Evergreen favourites',
       subtitle: 'TIMELESS CLASSICS',
       mood: 'Classics',
       song: songs[2],
       color: 'teal',
     },
     {
-      title: 'Aaj ki party.',
+      title: 'Shaam ki party',
       subtitle: 'TURN IT ALL THE WAY UP',
       mood: 'Party',
       song: songs.find((s) => s.title === 'Badtameez Dil') || songs[3],
@@ -405,11 +405,6 @@ export default function Music() {
             </button>
           )}
         </label>
-        <span className="era-stamp">
-          BOLLYWOOD ONLY
-          <br />
-          <b>1990 — 2020</b>
-        </span>
       </header>
       <nav className="navigation" aria-label="Main navigation">
         <button
@@ -447,18 +442,10 @@ export default function Music() {
               <>
                 <div className="section-intro">
                   <div>
-                    <p className="eyebrow">
-                      THREE DECADES. A THOUSAND MEMORIES.
-                    </p>
                     <h1>
-                      Every song, <em>a scene.</em>
+                      A little <em>mehfil.</em>
                     </h1>
                   </div>
-                  <span className="curation-note">
-                    Handpicked.
-                    <br />
-                    Always filmy.
-                  </span>
                 </div>
                 <div className="featured-grid">
                   {featured.map((f) => (
@@ -496,42 +483,10 @@ export default function Music() {
                 </div>
               </>
             )}
-          <div className="decades" aria-label="Browse by release period">
-            {['All years', '90s', '2000s', '2010s', '2020'].map((d) => (
-              <button
-                key={d}
-                className={decade === d ? 'selected' : ''}
-                onClick={() => setDecade(d)}
-                aria-pressed={decade === d}
-              >
-                <span>
-                  {d === 'All years' || d === '2020' ? d : `The ${d}`}
-                </span>
-                <small>
-                  {d === '90s'
-                    ? 'Cassette-era magic'
-                    : d === '2000s'
-                      ? 'The mixtape years'
-                      : d === '2010s'
-                        ? 'A new nostalgia'
-                        : d === '2020'
-                          ? 'One last encore'
-                          : 'The complete collection'}
-                </small>
-              </button>
-            ))}
-          </div>
           <div className="collection-heading">
             <div>
-              <p className="eyebrow">
-                {selectedPlaylist
-                  ? 'YOUR OWN SOUNDTRACK'
-                  : 'THE MEHFIL COLLECTION'}
-              </p>
               <h2>{heading}</h2>
-              <p className="subtle">
-                {filtered.length} songs · Familiar voices. Unforgettable films.
-              </p>
+              <p className="subtle">{filtered.length} songs</p>
             </div>
             <button
               className="primary-button"
@@ -679,16 +634,12 @@ export default function Music() {
             </div>
           )}
           <footer>
-            Made for the love of Hindi cinema.
-            <span>
-              Music and videos provided by YouTube. Availability varies by
-              region. Favourites and playlists stay in this browser.
-            </span>
+            <span>Favourites and playlists are saved on this browser.</span>
           </footer>
         </section>
         <aside className="listening-room">
           <div className="room-title">
-            <span className="eyebrow">NOW SHOWING · YOUTUBE</span>
+            <span className="eyebrow">NOW PLAYING</span>
             <span className={`live-dot ${playing ? 'on' : ''}`} />
           </div>
           <div
@@ -753,15 +704,6 @@ export default function Music() {
                 Play a collection or add a song to your queue.
               </p>
             )}
-          </div>
-          <div className="ticket">
-            <span>THE MEHFIL PROMISE</span>
-            <p>
-              No algorithms.
-              <br />
-              <em>Just good cinema.</em>
-            </p>
-            <small>CURATED 1990—2020</small>
           </div>
         </aside>
       </main>

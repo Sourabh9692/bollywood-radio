@@ -1,6 +1,6 @@
 # Mehfil — Bollywood Radio
 
-A static, public Bollywood listening website covering 1990–2020. React and TypeScript, built with Vinext. YouTube's IFrame Player API provides in-page playback; no audio files or API keys are hosted.
+A handpicked Bollywood listening website built with React, TypeScript, and Vite. Search by song, movie, or artist, browse by mood, and save personal playlists in your browser.
 
 ## Run locally
 
@@ -20,7 +20,7 @@ node --experimental-strip-types scripts/check-catalog.mjs
 node --experimental-strip-types scripts/check-catalog.mjs --online
 ```
 
-The static export is `dist/client`. Upload that directory to a static HTTPS host. Site registration metadata lives in `.openai/hosting.json`.
+The production output is `dist/client`. Upload that directory to any static HTTPS host. No backend or account system is required.
 
 ## Features
 
