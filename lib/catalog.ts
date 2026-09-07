@@ -126,7 +126,7 @@ const entries: [string, string, number, string, string, string[]][] = [
     'Rehnaa Hai Terre Dil Mein',
     2001,
     'Bombay Jayashri',
-    'sjij_VKa2QQ',
+    'a71xD6RyOok',
     ['Romantic'],
   ],
   [
@@ -185,7 +185,7 @@ const entries: [string, string, number, string, string, string[]][] = [
     'qoq8B8ThgEM',
     ['Romantic'],
   ],
-  ['Tu Hi Meri Shab Hai', 'Gangster', 2006, 'KK', 'FlE25jFlIng', ['Romantic']],
+  ['Tu Hi Meri Shab Hai', 'Gangster', 2006, 'KK', 'cGNcjqXe87U', ['Romantic']],
   [
     'Badtameez Dil',
     'Yeh Jawaani Hai Deewani',
@@ -215,7 +215,7 @@ const entries: [string, string, number, string, string, string[]][] = [
     'Ae Dil Hai Mushkil',
     2016,
     'Arijit Singh',
-    '284Ov7ysmfA',
+    'bzSTpdcs-EI',
     ['Sad'],
   ],
   [
@@ -226,7 +226,7 @@ const entries: [string, string, number, string, string, string[]][] = [
     'ZTmF2v59CtI',
     ['Party', 'Item songs'],
   ],
-  ['Shayad', 'Love Aaj Kal', 2020, 'Arijit Singh', 'MJyKN-8UncM', ['Romantic']],
+  ['Shayad', 'Love Aaj Kal', 2020, 'Arijit Singh', 'iZH_ydGn9i0', ['Romantic']],
   [
     'Kala Chashma',
     'Baar Baar Dekho',

@@ -1,5 +1,7 @@
 # Mehfil — Bollywood Radio
 
+[Open Mehfil](https://sourabh9692.github.io/mehfil-web/)
+
 A handpicked Bollywood listening website built with React, TypeScript, and Vite. Search by song, movie, or artist, browse by mood, and save personal playlists in your browser.
 
 ## Run locally
